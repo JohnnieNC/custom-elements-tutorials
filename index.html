@@ -111,7 +111,7 @@
 
                     tabs.forEach(tab => {
                         const panel = tab.nextElementSibling
-                        if (panel.tagname.toLowerCase() !== 'howto-panel') {
+                        if (panel.tagName.toLowerCase() !== 'howto-panel') {
                             console.error(`Tab #${tab.id} is not a sibling of a <howto-panel>`)
                             return
                         }
